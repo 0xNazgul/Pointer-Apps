@@ -1,0 +1,6 @@
+#V2
+tx-sender
+(contract-call? .magic-beans mint u1000 tx-sender)
+(contract-call? .nazgul-gold  mint u1000 tx-sender)
+::get_assets_maps
+clarinet integrate
